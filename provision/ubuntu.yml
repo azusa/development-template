@@ -111,7 +111,6 @@
       apt: 
         name: ['curl', 'git','mercurial', 'make', 'binutils', 'bison', 'gcc']
         state: present
-      become: "{{ansible_user }}"
 #    - name: install gvm
 #      shell: |
 #         zsh < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
